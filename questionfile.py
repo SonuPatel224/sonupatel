@@ -19,3 +19,18 @@
 #50 legs
 
 #Create a python script to solve this problem.
+
+print("returns the total number of legs of all the animals")
+print("chickens = 2 legs\ncows = 4 legs\npigs = 4 legs")
+print("There are 5 chickens, 2 cows and 8 pigs")
+chickens=2
+cows=4
+pigs=4
+chic=5
+cows1=2
+pigs1=8
+
+def animals(chickens,cows,pigs):
+    return chic*chickens+cows1*cows+pigs1*pigs
+print(animals(chickens,cows,pigs))
+
